@@ -9,6 +9,7 @@
 body{
     background-color: var(--bgColor);
     font-family: var(--font);
+    padding-bottom: 10px;
 }
 
 #userPhoto{
@@ -19,15 +20,16 @@ body{
     border-radius: 50%;
 }
 
-#userName{
-    color: #000000de;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.25;
+#bio {
     display: block;
     width: 100%;
     text-align: center;
-    text-decoration: none;
+    color: #000000de;
+}
+#bio h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
 }
 
 #socialLinks, #links {
@@ -38,9 +40,10 @@ body{
 
 #socialLinks {
     max-width: 360px;
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 18px;
+    font-weight: 100;
 }
 #socialLinks a {
     color: var(--accentColor);
