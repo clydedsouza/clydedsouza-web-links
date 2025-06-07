@@ -49,6 +49,7 @@ body{
     color: var(--accentColor);
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     margin-right: 18px;
+    text-decoration: none;
 }
 #socialLinks a:last-child {
     margin-right: 0;
@@ -85,7 +86,7 @@ footer a {
     color: var(--accentColor);
     text-decoration: none;
     text-decoration: none;
-    opacity: 0.8;
+    opacity: 1;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
 }
 footer a:hover, footer a:visited {
